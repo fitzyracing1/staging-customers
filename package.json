@@ -1,0 +1,16 @@
+{
+  "name": "staging-customers",
+  "version": "0.1.0",
+  "description": "Staging environment that simulates customers of discuss-build. Test-money ledger only; no real payments.",
+  "bin": {
+    "staging-customers": "bin/staging-customers.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.js"
+  },
+  "author": "Joshua Almeida (https://github.com/fitzyracing1)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
